@@ -1,0 +1,12 @@
+.cl_Footer {
+    height: 6rem;
+    width: 100%;
+    background-color: #702673;
+    color: white;
+    text-align: center;
+}
+
+.cl_FooterText {
+    color: white;
+    text-align: center;
+}

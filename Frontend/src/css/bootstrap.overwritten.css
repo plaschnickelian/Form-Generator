@@ -1,0 +1,32 @@
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #009BDC;
+    --bs-btn-border-color: rgb(0, 155, 220);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0084bd;
+    --bs-btn-hover-border-color: #0084bd;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0084bd;
+    --bs-btn-active-border-color: #0084bd;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #009BDC;
+    --bs-btn-disabled-border-color: #009BDC;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0 155 220 / 50%);
+}
+
+.btn {
+    border-radius: unset;
+}
+
+input.form-control {
+    border-radius: unset;
+}
+
+select.form-select {
+    border-radius: unset;
+}

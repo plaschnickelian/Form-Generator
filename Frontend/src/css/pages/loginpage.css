@@ -1,0 +1,84 @@
+.cl_LandingPage {
+    line-height: 1.42857143;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cl_FormLoginForgotPW {
+    text-align: right !important;
+    float: right;
+    font-size: 12px !important;
+    color: #33B2E9;
+    padding-top: 5px;
+}
+
+#login-container {
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_LoginForm {
+    width: 33%;
+    margin: 0 0 2rem 0;
+}
+
+.cl_LoginInput {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #36454f;
+    border-radius: 0;
+    display: inline-block;
+}
+
+.cl_LoginButton {
+    width: 100%;
+    border-radius: 0;
+    display: inline-block;
+    background-color: #702673;
+    border-color: #702673;
+}
+.cl_LoginButton:hover {
+    background-color: #702673;
+    border-color: #702673;
+    color: rgb(201, 201, 201)
+}
+
+
+/* Passwort vergessen */
+.forgot-password {
+    height: 77vh;
+    width: 80vw;
+    margin: 2rem auto 0 auto;
+}
+
+.forgot-password form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-password form > div {
+    margin: 0 0 10rem 0;
+    width: min-content;
+}
+
+.forgot-password .MuiFormControl-root {
+    width: 30rem;
+    margin: 0.4rem 0 0 0;
+}
+
+.forgot-password .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+
+.forgot-password .buttons button {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Calibri";
+}

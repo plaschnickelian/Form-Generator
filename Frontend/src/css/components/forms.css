@@ -1,0 +1,48 @@
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + .75rem);
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    box-shadow: 0 0 3px 0px #dc3545
+}
+
+ul.password-rules .invalid {
+  color: #dc3545;
+}
+
+ul.password-rules .invalid span, ul.password-rules .valid span{
+  opacity: 1;
+}
+
+ul.password-rules .valid {
+  color: #28a745;
+}
+
+button.btn-group-2 {
+  width: 50%;
+}
+
+button.btn-group-2.active {
+  box-shadow: 0 0 0 0.2rem rgb(89 30 92 / 50%);
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+button.btn-group-2.inactive {
+  background-color: #545b62;
+  border-color: #4e555b;
+  color: white;
+}
+
+div.btn-group-full-width div.btn-group {
+  display: contents;
+}
+
+.label-full-width {
+  width:100%;
+}
+
+.button-row {
+  text-align: center;
+}

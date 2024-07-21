@@ -1,0 +1,20 @@
+div#breadcrumb-container {
+    height: 3.125em;
+}
+
+#breadcrumb-container li:not(:last-child) span {
+    color: rgb(163, 163, 163);
+}
+
+#breadcrumb-container li:last-child span {
+    font-weight: 500;
+}
+
+#breadcrumb-container li a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-icon {
+    /*margin-bottom: 0.5em;*/
+    margin-right: 0.5em;
+}
