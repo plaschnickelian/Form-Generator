@@ -1,5 +1,4 @@
 const db = require('./database/db');
-const cron = require('node-cron');
 
 const app = require('./app');
 const http = require('http'); // Load https server
