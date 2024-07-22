@@ -10,3 +10,8 @@ This is a web application designed to help project teams efficiently save and ma
 
 ## Screenshots
 ![application path](images/application.png)
+<br><br>
+<br><br>
+<u>**Example of a genererated form**</u>
+<br><br>
+![example form](images/form.png)
